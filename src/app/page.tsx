@@ -1,7 +1,9 @@
-const HomePage= () => {
+import React from 'react';
+
+const HomePage: React.FC = () => {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <h1>Welcome to the Home Page</h1>
     </div>
   );
 };
